@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    text-align: center;
+    font-family: "Open Sans";
+}
+
+nav {
+    background-color: #000000;
+    color: white;
+    text-align: left;
+    padding: 20px 120px;
+    font-size: 18px;
+}
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 70px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .icono {
+    filter: brightness(0) invert(1);
+    color: white;
+    width: 25px;
+}
+
+header {
+    text-align: right;
+    background-image: url("../img/bg-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    font-family: monospace;
+    text-shadow: 0px 3px 6px black;
+    color: white;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header h2 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+#ubicacion {
+    margin: 100px;
+}
+
+#ubicacion img {
+    width: 35%;
+}
+
+#ubicacion h2 {
+    font-size: 30px;
+    margin: 40px 0px 20px 0px;
+}
+
+#ubicacion p {
+    font-size: 20px;
+}
+
+#proxima-charla {
+    background-color: brown;
+    padding: 100px;
+    color: white;
+}
+
+#proxima-charla img, .charla-texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#proxima-charla .charla-texto {
+    text-align: left;
+    margin-left: 40px;
+}
+
+#proxima-charla .charla-texto h2 {
+    font-size: 35px;
+}
+
+#proxima-charla .charla-texto h3 {
+    font-size: 25px;
+}
+
+#proxima-charla .charla-texto h4 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#proxima-charla .charla-texto h5 {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#proxima-charla .charla-texto p {
+    margin: 20px 0px;
+    font-size: 18px;
+}
+
+#eventos {
+    padding: 100px;
+}
+
+#eventos h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+#eventos h3 {
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+#eventos article {
+    display: inline-block;
+    font-size: 30px;
+    
+}
+
+#eventos .evento {
+    margin: 0px 20px;
+}
+
+#eventos img {
+    width: 80%;
+}
+
+#simposio {
+    padding-top: 80px;
+    padding-left: 22%;
+    padding-right: 22%;
+    padding-bottom: 120px;
+    text-align: left;
+}
+
+#simposio h1 {
+    font-size: 35px;
+}
+
+#simposio p {
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#simposio img {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+footer i {
+    padding-bottom: 30px;
+    margin: 0px 10px;
+    color: white;
+}
